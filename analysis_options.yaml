@@ -1,0 +1,6 @@
+analyzer:
+  errors:
+    file_names: ignore
+    unnecessary_brace_in_string_interps: ignore
+    unnecessary_string_interpolations: ignore
+include: package:flutter_lints/flutter.yaml

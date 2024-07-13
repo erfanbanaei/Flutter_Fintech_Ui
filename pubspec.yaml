@@ -1,0 +1,35 @@
+name: fintechapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  dotted_border: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: PlusJakarta
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+          weight: 800
